@@ -1,3 +1,5 @@
+# create a function which takes two arguements first target_sum and second list of numbers and if its is not possible to get the sum then just return None
+
 def howSum(target_sum, numbers, memo = {}):
       if target_sum in memo:
             print(memo)
