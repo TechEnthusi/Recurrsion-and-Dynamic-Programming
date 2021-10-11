@@ -1,5 +1,7 @@
-# create a function which takes two arguements first target_sum and second list of numbers and if its is not possible to get the sum then just return None
+# create a function which takes two arguements first target_sum and 
+# second list of numbers and if its is not possible to get the sum then just return None
 
+# here we are using memoization
 def howSum(target_sum, numbers, memo = {}):
       if target_sum in memo:
             print(memo)
